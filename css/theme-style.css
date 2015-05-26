@@ -27,9 +27,7 @@ body a{
 	font-size: 1.2em;
 	font-weight: 500;
 }
-.top-nav ul li.active a{
-	background: url(../images/active-ico.png) no-repeat 50% 100%;
-}
+
 .top-nav ul li.contatct-active a{
 	border:2px solid #fff;
 	border-radius:5px;
@@ -726,7 +724,19 @@ nav a#pull {
 }
 .contact-left p{
 	color:#394346;
-	font-size:1.2em;
+	font-size:1.1em;
+}
+
+.contact-left li a{
+	color:#394346;
+	font-size:1.1em;
+	text-decoration: underline;
+}
+
+.contact-left {
+	height: 20px;
+	padding: 20px;	
+	padding: 2.3em 3em;
 }
 .contact-left input[type="text"],.contact-left textarea{
 	border:1px solid #E0E0E0;
@@ -909,9 +919,7 @@ nav a#pull {
 .grid-point {
 	right: -9.2%;
 }
-.contact-left {
-	padding: 2.3em 3em;
-}
+
 .port-grid-text {
 	min-height: 161px;
 }
@@ -1247,9 +1255,7 @@ div.col-md-6.test-monial-time-line-left {
 .test-monial-time-line-left-pic a {
 	font-size: 0.95em;
 }
-.contact-left {
-	padding: 20px;
-}
+
 .contact-left input[type="text"], .contact-left textarea {
 	padding: 0.8em;
 	font-size: 0.8125em;
@@ -1273,5 +1279,9 @@ div.col-md-6.test-monial-time-line-left {
 
 .footer-right span label {
 	margin-top: 1em;
+}
+
+.container {
+	z-index: 1000;
 }
 }
